@@ -1,0 +1,130 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  /* background-color: #778899; */
+}
+.app {
+  /* background-color: black; */
+}
+
+.users {
+  margin: 100px;
+  background-color: #808080;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.single-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px grey;
+  border-radius: 5px;
+  margin: 20px 10px;
+  background-color: black;
+  color: white;
+}
+.user-pic-container {
+  display: flex;
+  align-items: center;
+  margin: 4px;
+}
+.user-pic {
+  border-radius: 5%;
+  width: 100px;
+  height: 100px;
+}
+
+.user-date {
+  margin-right: 4px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-items {
+  margin: 0 5px;
+  font-size: 20px;
+  background-color: #808080;
+  border-radius: 2px;
+}
+
+.edit-action:hover {
+  background-color: #64bd3d;
+  cursor: pointer;
+  font-size: 25px;
+}
+.delete-action:hover {
+  background-color: #ff0000;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.table-titles {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2%;
+  color: white;
+}
+.table-item {
+  font-size: 18px;
+}
+
+.table-user {
+  margin-left: 7%;
+}
+.table-email {
+  margin-left: 7%;
+}
+.table-country {
+  margin-left: 7%;
+}
+.table-date {
+  margin-left: 5%;
+  padding-right: 1%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: indianred;
+  height: 80px;
+}
+.header-link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.comments {
+  margin: 100px;
+  background-color: #808080;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.single-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px grey;
+  border-radius: 5px;
+  margin: 20px 10px;
+  background-color: black;
+  color: white;
+  height: 100px;
+}
+.single-comment-items {
+  margin: 30px;
+}
+
+/* .table-author {
+  margin-right: 17%;
+}
+.table-comment {
+  margin-right: 15%;
+} */
